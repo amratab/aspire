@@ -1,0 +1,36 @@
+{
+  "resource": "Users",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "/users.json",
+  "description": "User Sign up",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "user[first_name]",
+      "description": "First Name"
+    },
+    {
+      "required": false,
+      "name": "user[last_name]",
+      "description": "Last Name"
+    },
+    {
+      "required": true,
+      "name": "user[email]",
+      "description": "Email"
+    },
+    {
+      "required": true,
+      "name": "user[password]",
+      "description": "Password"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}

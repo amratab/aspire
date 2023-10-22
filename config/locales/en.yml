@@ -1,0 +1,49 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  activerecord:
+    errors:
+      models:
+        installment:
+          payment_not_allowed_for_unapproved: 'Payment cannot be made for an unapproved loan.'
+          amount_greater_than_loan_due: 'Amount cannot be greater than %{loan_amount_due}'
+          amount_less_than_installment: 'Amount cannot be less than installment amount - %{amount_due}'
+          scheduled_installment_not_found: 'No scheduled installment found with id: %{id}!'
+        loan:
+          only_admin_can_approve: 'Only admin can approve a loan.'
+          not_found: 'Loan not found'
+          not_allowed_paid_to_approved: 'Status cannot be moved from paid to approved.'
+          not_allowed_paid_with_pending_amount: 'Status cannot be moved to paid as there are pending installments.'
+          not_allowed_paid_from_pending_status: 'Status cannot be moved to paid from pending.'
+  errors:
+    generic: 'Some error occurred'
+

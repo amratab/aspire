@@ -1,0 +1,21 @@
+{
+  "resource": "Loans",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/loans",
+  "description": "Shows users loans info",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": false,
+      "name": "page",
+      "description": "Page"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "resource": "Loans",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "/loans",
+  "description": "Create a loan request",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "loan[amount]",
+      "description": "Amount"
+    },
+    {
+      "required": false,
+      "name": "loan[term]",
+      "description": "Term"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: 1
+  user: one
+  amount: 1.5
+  term: 1
+  approved_on: 2023-10-21 09:33:13
+
+two:
+  status: 1
+  user: two
+  amount: 1.5
+  term: 1
+  approved_on: 2023-10-21 09:33:13

@@ -1,0 +1,21 @@
+{
+  "resource": "Installments",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/loans/:loan_id/installments",
+  "description": "Display all installments for loan",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": false,
+      "name": "page",
+      "description": "Page"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resource": "Installments",
+  "resource_explanation": null,
+  "http_method": "PUT",
+  "route": "/loans/:loans_id/installments/:id/pay",
+  "description": "Pay installment",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "payment[amount]",
+      "description": "Amount"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}

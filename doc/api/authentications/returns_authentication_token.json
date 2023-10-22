@@ -1,0 +1,26 @@
+{
+  "resource": "Authentications",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "/auth/login",
+  "description": "Returns authentication token",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "email",
+      "description": "Email"
+    },
+    {
+      "required": true,
+      "name": "password",
+      "description": "Password"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}

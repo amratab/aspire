@@ -1,0 +1,77 @@
+{
+  "resources": [
+    {
+      "name": "Authentications",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Returns authentication token",
+          "link": "authentications/returns_authentication_token.json",
+          "groups": "all",
+          "route": "/auth/login",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "Installments",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Display all installments for loan",
+          "link": "installments/display_all_installments_for_loan.json",
+          "groups": "all",
+          "route": "/loans/:loan_id/installments",
+          "method": "get"
+        },
+        {
+          "description": "Pay installment",
+          "link": "installments/pay_installment.json",
+          "groups": "all",
+          "route": "/loans/:loans_id/installments/:id/pay",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "Loans",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Approve loan",
+          "link": "loans/approve_loan.json",
+          "groups": "all",
+          "route": "/loans/:id/approve",
+          "method": "put"
+        },
+        {
+          "description": "Create a loan request",
+          "link": "loans/create_a_loan_request.json",
+          "groups": "all",
+          "route": "/loans",
+          "method": "post"
+        },
+        {
+          "description": "Shows users loans info",
+          "link": "loans/shows_users_loans_info.json",
+          "groups": "all",
+          "route": "/loans",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "User Sign up",
+          "link": "users/user_sign_up.json",
+          "groups": "all",
+          "route": "/users.json",
+          "method": "post"
+        }
+      ]
+    }
+  ]
+}

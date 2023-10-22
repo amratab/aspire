@@ -1,0 +1,21 @@
+{
+  "resource": "Loans",
+  "resource_explanation": null,
+  "http_method": "PUT",
+  "route": "/loans/:id/approve",
+  "description": "Approve loan",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "id",
+      "description": "Loan Id"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+
+  ]
+}
