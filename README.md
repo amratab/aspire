@@ -2,11 +2,15 @@
 
 The setups steps expect following tools installed on the system.
 
-- Ruby [3.1.2](https://github.com/organization/project-name/blob/master/.ruby-version#L1)
-- Rails [7.0.8](https://github.com/organization/project-name/blob/master/Gemfile#L12)
+- Ruby [3.1.2](https://github.com/amratab/aspire/blob/main/.ruby-version#L1)
+- Rails [7.0.8](https://github.com/amratab/aspire/blob/main/Gemfile#L7)
 - PostgreSQL 13 (brew install or download at https://postgresapp.com/)
 
 ##### 1. Check out the repository
+
+```bash
+git clone git@github.com:amratab/aspire.git
+```
 
 ##### 2. Edit database.yml file
 
