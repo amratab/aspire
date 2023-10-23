@@ -24,6 +24,7 @@ Run the following commands to create and setup the database.
 ```ruby
 bundle exec rake db:create
 bundle exec rake db:migrate
+bundle exec rake db:seed
 ```
 
 ##### 4. Install the gems
@@ -41,7 +42,7 @@ rails s
 ```
 
 And now you can visit the site with the URL http://localhost:3000
-
+Admin login is admin@aspire.com/admin
 ## Tests
 
 #### Running Locally
