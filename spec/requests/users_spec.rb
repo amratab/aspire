@@ -16,7 +16,7 @@ RSpec.describe User, type: :request do
 
     post '/users.json' do
       parameter 'user[first_name]', 'First Name', required: true
-      parameter 'user[last_name]', 'Last Name', required: false
+      parameter 'user[last_name]', 'Last Name', required: true
       parameter 'user[email]', 'Email', required: true
       parameter 'user[password]', 'Password', required: true
 

@@ -49,7 +49,7 @@ RSpec.describe Loan, type: :request do
 
     post '/loans' do
       parameter 'loan[amount]', 'Amount', required: true
-      parameter 'loan[term]', 'Term', required: false
+      parameter 'loan[term]', 'Term', required: true
       context 'loan request is created' do
         let(:raw_post) do
           { loan: { amount: 50000, term: 5 } }
