@@ -70,6 +70,12 @@ _Note:_ you need to ensure the test database is created and migrated first. This
 - If the loan amount is paid after the installment payment, loan is marked as paid and all the remaining installments are marked as paid.
 - For validating amount paid in installment, I have followed this logic: If total loan amount pending is greater than installment amount then user can minimum of installment amount and pending loan amount. If total loan amount pending is less than installment amount, then user can pay the pending loan amount at max.
 
+##### API login and authorization
+
+- JWT used for authentication
+- Use signup API to create users.
+- Use auth login API to sign in. It returns a token {token: '<authorization-token>'}. Populate authorization-token against Authorization header in all other APIs and add content-type:  'application/json' in header as well.
+
 ##### Choice explanations
 
 - I have used services for transactional tasks like installment payments and loan creation with installments because this seems clean to either have all transactions succeed or none.
