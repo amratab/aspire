@@ -1,4 +1,4 @@
-class CreateLoans < ActiveRecord::Migration[7.0]
+class CreateLoans < ActiveRecord::Migration[8.1]
   def change
     create_table :loans do |t|
       t.integer :status, default: 0

@@ -2,8 +2,8 @@
 
 The setups steps expect following tools installed on the system.
 
-- Ruby [3.1.2](https://github.com/amratab/aspire/blob/main/.ruby-version#L1)
-- Rails [7.0.8](https://github.com/amratab/aspire/blob/main/Gemfile#L7)
+- Ruby [4.0.4](https://github.com/amratab/aspire/blob/main/.ruby-version#L1)
+- Rails [8.1.3](https://github.com/amratab/aspire/blob/main/Gemfile#L7)
 - PostgreSQL 13 (brew install or download at https://postgresapp.com/)
 
 ##### 1. Check out the repository

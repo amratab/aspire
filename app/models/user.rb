@@ -3,7 +3,7 @@ class User < ApplicationRecord
 
   has_secure_password
 
-  enum role: { customer: 0, admin: 1 }
+  enum :role, { customer: 0, admin: 1 }
 
   has_many :loans
   validates_uniqueness_of :email

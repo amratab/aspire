@@ -1,4 +1,4 @@
-class CreateInstallments < ActiveRecord::Migration[7.0]
+class CreateInstallments < ActiveRecord::Migration[8.1]
   def change
     create_table :installments do |t|
       t.datetime :paid_at

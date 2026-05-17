@@ -1,5 +1,5 @@
 class Loan < ApplicationRecord
-  enum status: { pending: 0, approved: 1, paid: 2 }
+  enum :status, { pending: 0, approved: 1, paid: 2 }
 
   belongs_to :user
   has_many :installments, dependent: :destroy

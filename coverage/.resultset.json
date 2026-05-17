@@ -262,29 +262,6 @@
           null
         ]
       },
-      "/home/sahild/bonsai/aspire/config/routes.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/home/sahild/bonsai/aspire/spec/support/request_spec_helper.rb": {
         "lines": [
           null,
@@ -573,7 +550,7 @@
           4,
           null,
           5,
-          1,
+          null,
           1,
           null,
           null,
@@ -916,7 +893,6 @@
           null,
           null,
           null,
-          null,
           null
         ]
       },
@@ -1045,7 +1021,6 @@
           null,
           null,
           null,
-          null,
           null
         ]
       },
@@ -1094,6 +1069,29 @@
           1,
           null,
           null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/sahild/bonsai/aspire/config/routes.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
           1,
           1,
           null,
@@ -1294,7 +1292,6 @@
           null,
           1,
           null,
-          null,
           null
         ]
       },
@@ -1322,6 +1319,6 @@
         ]
       }
     },
-    "timestamp": 1779019742
+    "timestamp": 1779025355
   }
 }

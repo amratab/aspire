@@ -1,6 +1,6 @@
 class Installment < ApplicationRecord
   belongs_to :loan
-  enum status: { pending: 0, scheduled: 1, paid: 2 }
+  enum :status, { pending: 0, scheduled: 1, paid: 2 }
 
   validates_presence_of :due_date
   validates_numericality_of :amount_due, :greater_than => 0.0
