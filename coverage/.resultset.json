@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/amratabaghel/projects/aspire/spec/controllers/application_controller_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/controllers/application_controller_spec.rb": {
         "lines": [
           null,
           null,
@@ -12,7 +12,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/environment.rb": {
+      "/home/sahild/bonsai/aspire/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -21,7 +21,7 @@
           1
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/application.rb": {
+      "/home/sahild/bonsai/aspire/config/application.rb": {
         "lines": [
           1,
           null,
@@ -52,7 +52,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/boot.rb": {
+      "/home/sahild/bonsai/aspire/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -60,7 +60,7 @@
           1
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/environments/test.rb": {
+      "/home/sahild/bonsai/aspire/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -124,7 +124,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/initializers/apitome.rb": {
+      "/home/sahild/bonsai/aspire/config/initializers/apitome.rb": {
         "lines": [
           null,
           null,
@@ -172,7 +172,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/initializers/cors.rb": {
+      "/home/sahild/bonsai/aspire/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -192,7 +192,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/initializers/filter_parameter_logging.rb": {
+      "/home/sahild/bonsai/aspire/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -204,7 +204,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/initializers/inflections.rb": {
+      "/home/sahild/bonsai/aspire/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -224,7 +224,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/factories/installments.rb": {
+      "/home/sahild/bonsai/aspire/spec/factories/installments.rb": {
         "lines": [
           1,
           1,
@@ -235,7 +235,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/factories/loans.rb": {
+      "/home/sahild/bonsai/aspire/spec/factories/loans.rb": {
         "lines": [
           1,
           null,
@@ -248,7 +248,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/factories/users.rb": {
+      "/home/sahild/bonsai/aspire/spec/factories/users.rb": {
         "lines": [
           1,
           null,
@@ -262,7 +262,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/config/routes.rb": {
+      "/home/sahild/bonsai/aspire/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -285,7 +285,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/support/request_spec_helper.rb": {
+      "/home/sahild/bonsai/aspire/spec/support/request_spec_helper.rb": {
         "lines": [
           null,
           null,
@@ -306,7 +306,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/controllers/application_controller.rb": {
+      "/home/sahild/bonsai/aspire/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -330,12 +330,11 @@
           17,
           17,
           17,
-          17,
           null,
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/controllers/concerns/json_web_token.rb": {
+      "/home/sahild/bonsai/aspire/app/controllers/concerns/json_web_token.rb": {
         "lines": [
           null,
           null,
@@ -358,7 +357,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/models/installment_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/models/installment_spec.rb": {
         "lines": [
           1,
           null,
@@ -405,7 +404,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/models/installment.rb": {
+      "/home/sahild/bonsai/aspire/app/models/installment.rb": {
         "lines": [
           1,
           1,
@@ -427,14 +426,14 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/models/application_record.rb": {
+      "/home/sahild/bonsai/aspire/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/models/loan_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/models/loan_spec.rb": {
         "lines": [
           1,
           null,
@@ -545,7 +544,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/models/loan.rb": {
+      "/home/sahild/bonsai/aspire/app/models/loan.rb": {
         "lines": [
           1,
           1,
@@ -586,7 +585,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/models/user_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/models/user_spec.rb": {
         "lines": [
           null,
           null,
@@ -601,7 +600,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/models/user.rb": {
+      "/home/sahild/bonsai/aspire/app/models/user.rb": {
         "lines": [
           1,
           1,
@@ -617,7 +616,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/requests/authentication_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/requests/authentication_spec.rb": {
         "lines": [
           null,
           null,
@@ -662,7 +661,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/requests/installments_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/requests/installments_spec.rb": {
         "lines": [
           1,
           1,
@@ -921,7 +920,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/requests/loans_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/requests/loans_spec.rb": {
         "lines": [
           1,
           1,
@@ -1050,7 +1049,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/spec/requests/users_spec.rb": {
+      "/home/sahild/bonsai/aspire/spec/requests/users_spec.rb": {
         "lines": [
           null,
           null,
@@ -1107,7 +1106,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/controllers/authentication_controller.rb": {
+      "/home/sahild/bonsai/aspire/app/controllers/authentication_controller.rb": {
         "lines": [
           1,
           1,
@@ -1125,7 +1124,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/controllers/installments_controller.rb": {
+      "/home/sahild/bonsai/aspire/app/controllers/installments_controller.rb": {
         "lines": [
           1,
           1,
@@ -1169,7 +1168,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/services/payment_service.rb": {
+      "/home/sahild/bonsai/aspire/app/services/payment_service.rb": {
         "lines": [
           null,
           null,
@@ -1226,7 +1225,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/controllers/loans_controller.rb": {
+      "/home/sahild/bonsai/aspire/app/controllers/loans_controller.rb": {
         "lines": [
           1,
           1,
@@ -1272,7 +1271,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/services/loan_service.rb": {
+      "/home/sahild/bonsai/aspire/app/services/loan_service.rb": {
         "lines": [
           1,
           null,
@@ -1299,7 +1298,7 @@
           null
         ]
       },
-      "/Users/amratabaghel/projects/aspire/app/controllers/users_controller.rb": {
+      "/home/sahild/bonsai/aspire/app/controllers/users_controller.rb": {
         "lines": [
           1,
           1,
@@ -1323,6 +1322,6 @@
         ]
       }
     },
-    "timestamp": 1697986100
+    "timestamp": 1779019742
   }
 }
